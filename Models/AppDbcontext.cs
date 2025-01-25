@@ -6,7 +6,7 @@ namespace registration_M1_.Models
     {
         public DbSet<User> Users { get; set; }
         public AppDbcontext(DbContextOptions options) : base(options)
-        {
+        { //
         }
     }
 
